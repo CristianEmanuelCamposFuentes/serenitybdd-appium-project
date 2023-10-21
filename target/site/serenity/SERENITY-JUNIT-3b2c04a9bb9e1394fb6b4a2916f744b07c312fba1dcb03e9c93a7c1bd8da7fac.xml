@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Log in" skipped="0" tests="1" time="4.04" timestamp="2023-10-21 12:12:46"><testcase name="Try to log in with not valid credentials"><error message="WebDriver was unable to create a new instance of type class io.appium.java_client.AppiumDriver&#13;&#10;WebDriver reported the following message: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'D:\serenitybdd-appium-poc\src\test\resources\TheApp-v1.10.0.apk' does not exist or is not accessible &#10;Host info: host: 'DESKTOP-LH4JLB8', ip: '192.168.0.154'&#10;Build info: version: '4.5.3', revision: '4b786a1e430'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[{appium:app=D:\serenitybdd-appium-poc\src\test\resources\TheApp-v1.10.0.apk, appium:automationName=uiautomator2, appium:deviceName=AutomationTesting, appium:hub=http://localhost:4723/wd/hub, appium:newCommandTimeout=1000, platformName=ANDROID, appium:platformVersion=11.0}], desiredCapabilities=Capabilities {app: D:\serenitybdd-appium-poc\s..., automationName: uiautomator2, deviceName: AutomationTesting, hub: http://localhost:4723/wd/hub, newCommandTimeout: 1000, platformName: ANDROID, platformVersion: 11.0}}]&#10;Capabilities {}&#13;&#10;See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">WebDriver was unable to create a new instance of type class io.appium.java_client.AppiumDriver&#13;
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'D:\serenitybdd-appium-poc\src\test\resources\TheApp-v1.10.0.apk' does not exist or is not accessible 
+Host info: host: 'DESKTOP-LH4JLB8', ip: '192.168.0.154'
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=D:\serenitybdd-appium-poc\src\test\resources\TheApp-v1.10.0.apk, appium:automationName=uiautomator2, appium:deviceName=AutomationTesting, appium:hub=http://localhost:4723/wd/hub, appium:newCommandTimeout=1000, platformName=ANDROID, appium:platformVersion=11.0}], desiredCapabilities=Capabilities {app: D:\serenitybdd-appium-poc\s..., automationName: uiautomator2, deviceName: AutomationTesting, hub: http://localhost:4723/wd/hub, newCommandTimeout: 1000, platformName: ANDROID, platformVersion: 11.0}}]
+Capabilities {}&#13;
+See below for more details.</error><system-err>WebDriver was unable to create a new instance of type class io.appium.java_client.AppiumDriver&#13;
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'D:\serenitybdd-appium-poc\src\test\resources\TheApp-v1.10.0.apk' does not exist or is not accessible 
+Host info: host: 'DESKTOP-LH4JLB8', ip: '192.168.0.154'
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=D:\serenitybdd-appium-poc\src\test\resources\TheApp-v1.10.0.apk, appium:automationName=uiautomator2, appium:deviceName=AutomationTesting, appium:hub=http://localhost:4723/wd/hub, appium:newCommandTimeout=1000, platformName=ANDROID, appium:platformVersion=11.0}], desiredCapabilities=Capabilities {app: D:\serenitybdd-appium-poc\s..., automationName: uiautomator2, deviceName: AutomationTesting, hub: http://localhost:4723/wd/hub, newCommandTimeout: 1000, platformName: ANDROID, platformVersion: 11.0}}]
+Capabilities {}&#13;
+See below for more details.&#13;
+serenitybddwebinspanishtrainingv2@1.0.0-SNAPSHOT/starter.stepdefinitions.LogInStepDefinitions.john_want_to_create_a_new_post(LogInStepDefinitions.java:27)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)&#13;
+</system-err></testcase></testsuite>
