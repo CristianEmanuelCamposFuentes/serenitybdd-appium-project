@@ -9,7 +9,6 @@ import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
-
 public class LogInStepDefinitions {
 
 
